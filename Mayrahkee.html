@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayrahkee Spa</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="logo copy.png" alt="">
+            <!-- <span class="logo-main">Mayrahkee</span>
+        <span class="logo-sub">Spa</span> -->
+        </div>
+
+        <!-- MENU -->
+        <nav class="menu" id="menu">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <!-- RIGHT -->
+        <div class="right">
+            <div class="phone">
+                <a href="tel:917777059620"><i class="fa-solid fa-phone"></i>
+                    <span>+91 7777059620</span></a>
+            </div>
+
+            <div class="icons">
+                <a class="whatsapp" target="_blank" href="https://wa.me/917777059620"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a class="call" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+        </div>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!-- VIDEO_SECTION -->
+    <div class="video-main">
+        <video width="600" autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- HERO_SECTION  -->
+    <section class="spa-section">
+        <div class="content">
+            <h1>We Have Friendly Staff In Mayrahkee Spa</h1>
+            <span class="line"></span>
+
+            <p>
+                Discover ultimate tranquility at Mayrahkee Spa, where we offer an array of
+                nourishing treatments to our pristine clients. Our therapists are highly
+                trained to help you unwind, relax, and feel radiant through holistic
+                therapies from around the world.
+            </p>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider">
+                <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35" class="slide active">
+                <img src="https://images.pexels.com/photos/3997982/pexels-photo-3997982.jpeg" class="slide">
+                <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9" class="slide">
+            </div>
+
+            <div class="controls">
+                <button onclick="prevSlide()">‹</button>
+                <button onclick="nextSlide()">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- *****************************OUR_SERVICES***************************** -->
+
+    <section class="services">
+        <h1>Our Services</h1>
+        <span class="divider"></span>
+
+        <div class="services-grid">
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9">
+                <div class="card-content">
+                    <h3>Couples Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="https://img.freepik.com/free-photo/front-view-woman-working-spa_23-2150911820.jpg?ga=GA1.1.1882553007.1727034503&semt=ais_hybrid&w=740&q=80">
+                <div class="card-content">
+                    <h3>Swedish Relax Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="closeup-female-therapist-giving-hot-stone-massage-young-man-spa.jpg">
+                <div class="card-content">
+                    <h3>Hot Stone Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="massage-with-four-hands-concept-healthcare-female-beauty-two-masseuses-make-double-massage-girl-woman-spa-salon.jpg">
+                <div class="card-content">
+                    <h3>Four Hands Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="nurse-taking-care-patient.jpg">
+                <div class="card-content">
+                    <h3>Stretching Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="https://thyraspa.in/wp-content/uploads/2025/01/six-hands-message-e1736753071233.jpg">
+                <div class="card-content">
+                    <h3>Six Hands Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="https://propelphysiotherapy.com/wp-content/uploads/2023/08/what-is-deep-tissue-massage-therapy-propel-physiotherapy.jpg">
+                <div class="card-content">
+                    <h3>Deep Tissue Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="https://wikideals.co.za/media/catalog/product/2/0/202508067_1.jpg">
+                <div class="card-content">
+                    <h3>Aromatherapy Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="service-card">
+                <img src="https://bodyworksedinburgh.com/wp-content/uploads/2024/09/warm-bamboo-massage-large-1.jpg">
+                <div class="card-content">
+                    <h3>Bamboo Massage</h3>
+
+                    <div class="price">
+                        <span><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span><i class="fa-regular fa-clock"></i> 90 min</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                        <button class="wa-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ***********************************ABOUT SECTION *********************************** -->
+     <section class="about-spa">
+
+    <!-- Floating WhatsApp -->
+    <a target="_blank" href ="https://wa.me/917777059620" class="whatsapp-float">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- TOP ABOUT -->
+    <div class="about-top">
+        <h2>About Our Spa Center</h2>
+        <span class="line"></span>
+
+        <p>
+            Located in the heart of Andheri East, Mumbai, <strong>Mayrakhee Spa</strong>
+            is dedicated to delivering tranquility, rejuvenation, and premium wellness
+            experiences. Our carefully curated therapies are designed to restore balance,
+            reduce stress, and elevate your well-being.
+        </p>
+
+        <p>
+            From Full Body Massage and Cupping Therapy to Bamboo Massage and signature
+            relaxation treatments, our spa combines ancient healing techniques with modern
+            luxury facilities to ensure unmatched comfort and satisfaction.
+        </p>
+    </div>
+
+    <!-- BOTTOM SECTION -->
+    <div class="about-bottom">
+
+        <div class="about-text">
+            <h3>Experienced Therapists. Unmatched Relaxation.</h3>
+
+            <p>
+                Our team consists of highly trained and experienced therapists who are
+                committed to providing personalized spa treatments tailored to your needs.
+                Every session at Mayrakhee Spa is crafted to deliver deep relaxation and
+                holistic healing.
+            </p>
+
+            <p>
+                We use premium-quality products and maintain a serene, hygienic environment
+                so you can unwind with complete peace of mind. Book your appointment today
+                and allow us to take care of your wellness journey.
+            </p>
+
+            <a target="_blank" href ="https://wa.me/917777059620"><button class="btn">Book Appointment</button></a>
+        </div>
+
+        <div class="about-image">
+        <img src="spa.jpg" alt="Mayrakhee Spa Massage">
+        </div>
+
+    </div>
+
+</section>
+<!-- *************************FOOTER******************* -->
+ <footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-box brand">
+      <h2><span>MAYRAHKEE</span><br>SPA</h2>
+      <p>Mayrahkee Spa in Andheri East, Mumbai</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-box">
+      <h3>Services</h3>
+      <ul>
+        <li>Swedish Relax Massage</li>
+        <li>Aromatherapy Massage</li>
+        <li>Hot Stone Massage</li>
+        <li>Deep Tissue Massage</li>
+        <li>Four Hands Massage</li>
+        <li>Facial Massage</li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-box">
+      <h3>Contact Us</h3>
+      <p>
+        Grand Floor Hostels IRA<br>
+        by Orchid Vits Near Terminal 2 <br>
+        International Airport,Chakala,<br>
+        Andheri East, Mumbai,<br>
+        Maharashtra 400059.
+      </p>
+      <a href="tel:917777059620"><strong class="phone">+91 7777059620</strong></a>
+
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Unicorn Spa. All Rights Reserved.
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
